@@ -59,7 +59,7 @@ model = Prophet()
 model.fit(forecast_data)
 
 # Predict the next 6 months
-future = model.make_future_dataframe(periods=6, freq='M')
+future = model.make_future_dataframe(periods=6, freq='ME')
 forecast = model.predict(future)
 
 # Plot the forecast

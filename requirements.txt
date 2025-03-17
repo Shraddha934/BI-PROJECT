@@ -1,5 +1,7 @@
 streamlit
-pandas
 plotly
 prophet
 scikit-learn
+pandas
+numpy
+sqlite3 
