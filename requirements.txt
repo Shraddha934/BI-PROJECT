@@ -4,4 +4,3 @@ prophet
 scikit-learn
 pandas
 numpy
-sqlite3 
